@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    background-color: chocolate;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    margin-top: 50px;
+}
+.formulario{
+    margin-top:80px;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.575);
+    text-align: center;
+}
+
+#calculo{
+    margin-top:30px;
+    cursor: pointer;
+}
+#calculo:hover{
+    background-color: yellow;
+}
+p{
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 20px;
+    background-color: rgb(173, 81, 15);
+    border: 4px groove black ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.575);
+}
